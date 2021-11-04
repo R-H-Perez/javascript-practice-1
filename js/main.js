@@ -12,7 +12,7 @@ console.log(first + " " + last);
 //All the things the button needs to do.
 function toggle() {
   console.log(first + " " + last);
-  p.innerHTML += `<p>Richard Perez</p>`;
+  p.innerHTML += `<p>${first} ${last}</p>`;
 }
 
 //The array loop in the console.
